@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Story Task Using Html and Css</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body bgcolor="#dcaa2b">
+	
+		<header>
+			<img src="download.png">
+		</header>
+
+		<section id="pag">
+				<h2>Complete the Form -<br>Complete the Story</h2>
+				<hr>
+
+				<form class="form1" action="story.html" method="GET">
+
+					<label>Animal:</label>
+					<input type="text" name="tiger" id="sAnimal" placeholder="tiger"><br>
+					<br>
+
+					<label>Another Animal:</label>
+					<input type="text" name="lion" id="Another" placeholder="lion"><br>
+					<br>
+
+					<label>One More Animal:</label>
+					<input type="text" name="dog" id="OneMore" placeholder="dog"><br>
+					<br>
+
+					<label>Adjective(past tense):</label>
+					<input type="text" name="slam" id="Adjective" placeholder="slam"><br>
+					<br>
+
+					<label>Verbs (ends in-ing):</label>
+					<input type="text" name="run" id="Verb" placeholder="running"><br>
+					<br>
+
+					<label>Number:</label>
+					<input type="number" name="number" id="num" placeholder="2"><br>
+					<br>
+
+					<label>Yes or No:</label>
+					<input type="radio" name="radio" value="Yes">Yes
+					<input type="radio" name="radio" value="No">No<br>
+					<br>
+
+					<label>Relative speed (end in-er):</label>
+					<select style="width: 10%; height: 25px; border-radius: 10px;" name="speed">
+						<option value="Quicker">Quicker</option>
+						<option value="Fast">Fast</option>
+						<option value="Animals">Animals</option>
+						<option value="Important">Important</option>
+					</select><br>
+					<br>
+
+					<label>Motivational Quote:</label>
+					<textarea id="view" name="view" rows="1" cols="10" placeholder="example"></textarea><br>
+					<br>
+
+					<label>Meaningful Message:</label><br>
+					<textarea id="view1" name="view" rows="4" cols="10" placeholder="This is the Meanings"></textarea><br>
+					<br>
+
+					<input type="submit" value="Form My Story!" onclick="myfun()">
+
+				</form>
+
+				<hr style="width: 100%; height: 2px; background-color: red;">
+			
+		</section>
+		
+
+		<script type="text/javascript" src="main1.js"></script>
+</body>
+</html>

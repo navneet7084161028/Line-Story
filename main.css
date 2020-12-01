@@ -1,0 +1,74 @@
+header{
+	background-color: white;
+	height: auto;
+	width: 70%;
+	border-radius: 15px;
+	text-align: center;
+	margin-left: 15%;
+	position: relative;
+}
+#pag{
+	background-color: #FFEBCD;
+	width: 69%;
+	height: auto;
+	position: absolute;
+	margin-left: 15%;
+	border-radius: 15px;
+	margin-top: 1%;
+	text-align: center;
+	padding-top: 3%;
+}
+.form1{
+	width: 100%;
+	height: auto;
+	margin-top: 3%;
+	font-weight: 500;
+	line-height: 1em;
+	font-size: 22px;
+}
+input[type=text]{
+			width: 20%;
+			height: 30px;
+			border-radius: 10px;
+		}
+
+input[type=number]{
+			width: 20%;
+			height: 30px;
+			border-radius: 10px;
+		}
+
+input[type=radio]{
+			width: 3%;
+			height: 15px;
+			border-radius: 10px;
+		}
+
+#view{
+			width:15%;
+			height:20px;
+			border-radius: 6px;
+		}
+
+
+
+#view1{
+			width:50%;
+			height:120px;
+			border: 5px solid #1e90ff;
+			border-radius: 10px;
+		}
+#pag2{
+	background-color: #FFEBCD;
+	width: 69%;
+	height: auto;
+	position: absolute;
+	margin-left: 15%;
+	border-radius: 15px;
+	margin-top: 1%;
+	text-align: center;
+	padding-top: 2%;
+}
+p{
+	font-size: 23px;
+}
